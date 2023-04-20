@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- iOS Safari -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<!-- Chrome, Firefox OS and Opera Status Bar Color -->
+<meta name="theme-color" content="#FFFFFF">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.11.1/katex.min.css">
+<link rel="stylesheet" type="text/css"
+  href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.19.0/themes/prism.min.css">
+<link rel="stylesheet" type="text/css" href="css/SourceSansPro.css">
+<link rel="stylesheet" type="text/css" href="css/theme.css">
+<link rel="stylesheet" type="text/css" href="css/notablog.css">
+<!-- Favicon -->
+
+  <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22&gt;&lt;text text-anchor=%22middle%22 dominant-baseline=%22middle%22 x=%2250%22 y=%2255%22 font-size=%2280%22&gt;🔙&lt;/text&gt;&lt;/svg&gt;">
+
+<style>
+  :root {
+    font-size: 20px;
+  }
+</style>
+  <title>Android全局浮动背单词&nbsp;|&nbsp;Zheng Chen`s Blog </title>
+  <meta property="og:type" content="blog">
+  <meta property="og:title" content="Android全局浮动背单词">
+  
+    <meta name="description" content="用一个全局的悬浮窗来背单词吧！">
+    <meta property="og:description" content="用一个全局的悬浮窗来背单词吧！">
+  
+  
+    <meta property="og:image" content="data:image/svg+xml,&lt;svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22&gt;&lt;text text-anchor=%22middle%22 dominant-baseline=%22middle%22 x=%2250%22 y=%2255%22 font-size=%2280%22&gt;📝&lt;/text&gt;&lt;/svg&gt;">
+  
+  <style>
+    .DateTagBar {
+      margin-top: 1.0rem;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="Navbar">
+  <a href="index.html">
+    <div class="Navbar__Btn">
+      
+        <span><img class="inline-img-icon" src="data:image/svg+xml,&lt;svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22&gt;&lt;text text-anchor=%22middle%22 dominant-baseline=%22middle%22 x=%2250%22 y=%2255%22 font-size=%2280%22&gt;🔙&lt;/text&gt;&lt;/svg&gt;"></span>&nbsp;
+      
+      <span>Home</span>
+    </div>
+  </a>
+  
+    
+  
+    
+      <span class="Navbar__Delim">&centerdot;</span>
+      <a href="about.html">
+        <div class="Navbar__Btn">
+          
+            <span><img class="inline-img-icon" src="data:image/svg+xml,&lt;svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22&gt;&lt;text text-anchor=%22middle%22 dominant-baseline=%22middle%22 x=%2250%22 y=%2255%22 font-size=%2280%22&gt;😀&lt;/text&gt;&lt;/svg&gt;"></span>&nbsp;
+          
+          <span>About</span>
+        </div>
+      </a>
+    
+  
+</nav>
+  <header class="Header">
+    
+      <div class="Header__Cover">
+        <img src="https://www.notion.so/images/page-cover/met_william_morris_1877_willow.jpg">
+      </div>
+    
+    <div class="Header__Spacer ">
+    </div>
+    
+      <div class="Header__Icon">
+        <span><img class="inline-img-icon" src="data:image/svg+xml,&lt;svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22&gt;&lt;text text-anchor=%22middle%22 dominant-baseline=%22middle%22 x=%2250%22 y=%2255%22 font-size=%2280%22&gt;📝&lt;/text&gt;&lt;/svg&gt;"></span>
+      </div>
+    
+    <h1 class="Header__Title">Android全局浮动背单词</h1>
+    
+      <div class="DateTagBar">
+        
+          <span class="DateTagBar__Item DateTagBar__Date">Posted on Thu, Apr 20, 2023</span>
+        
+        
+          <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--purple">
+            <a href="tag/随手记录.html">随手记录</a>
+          </span>
+        
+      </div>
+    
+  </header>
+  <article id="https://www.notion.so/42d36bad435b4cfcb72b88e0ccb98fff" class="PageRoot"><h1 id="https://www.notion.so/7d6e425467614020bf6953db80225367" class="ColorfulBlock ColorfulBlock--ColorDefault Heading Heading--1"><a class="Anchor" href="#https://www.notion.so/7d6e425467614020bf6953db80225367"><svg width="16" height="16" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><span class="SemanticStringArray"><span class="SemanticString">浮动背单词</span></span></h1><div id="https://www.notion.so/e605fb75136846cfafcdd29f0311ee9d" class="ColorfulBlock ColorfulBlock--ColorDefault Text"><p class="Text__Content"><span class="SemanticStringArray"><span class="SemanticString">我一直想要一个能够在浮动窗口中背单词的词典，可以一直显示在其他窗口的最上层，这样我就可以在做其他事情的同时背单词。所以我做了这个。</span></span></p></div><div id="https://www.notion.so/87383ead46be477fa2eecc5778b07acb" class="ColorfulBlock ColorfulBlock--ColorDefault Text"><p class="Text__Content"><span class="SemanticStringArray"><span class="SemanticString">因为只用了一天，所以没太考虑架构设计，MVVM。主要以自己使用为主。有兴趣的可以自己编译修改。</span></span></p></div><div id="https://www.notion.so/60a6fa24fcc44586977386a051217f42" class="ColorfulBlock ColorfulBlock--ColorDefault Text"><p class="Text__Content"><span class="SemanticStringArray"><span class="SemanticString">仓库地址：</span><span class="SemanticString"><a class="SemanticString__Fragment SemanticString__Fragment--Link" href="https://github.com/ChenShifu0308/FloatingDict">Github</a></span></span></p></div><h1 id="https://www.notion.so/7203a3ca8c7b46f0951b2d39e3aa3e51" class="ColorfulBlock ColorfulBlock--ColorDefault Heading Heading--1"><a class="Anchor" href="#https://www.notion.so/7203a3ca8c7b46f0951b2d39e3aa3e51"><svg width="16" height="16" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><span class="SemanticStringArray"><span class="SemanticString">最小可行产品原型</span></span></h1><div id="https://www.notion.so/c638e67bc3074c129d8b670b038f2a4b" class="ColorfulBlock ColorfulBlock--ColorDefault Text"><p class="Text__Content"><span class="SemanticStringArray"><span class="SemanticString">这个词典的第一个版本是一个MVP（最小可行产品）。我希望它非常简单，但完全满足我的需求。它具有以下基本功能：</span></span></p></div><ul class="BulletedListWrapper"><li id="https://www.notion.so/ab6d947c665d4f2a9a5e80dc9fa67b14" class="BulletedList"><span class="SemanticStringArray"><span class="SemanticString">一个浮动窗口来显示单词的含义。浮动窗口可以一直显示在其他窗口的最上层，并且单词会在显示一段时间后更换为下一个单词。</span></span></li><li id="https://www.notion.so/18806db986b44235afc6fef6df92dc33" class="BulletedList"><span class="SemanticStringArray"><span class="SemanticString">一个单词列表来背诵。我选择使用频率顺序来显示单词，同时可以配置起始和结束索引。</span></span></li><li id="https://www.notion.so/dc0e63b8af6b4128913cd4248ee935c2" class="BulletedList"><span class="SemanticStringArray"><span class="SemanticString">在浮动窗口中显示的单词可以按随机顺序或顺序背诵。但是它应该记录已显示的单词并在所有单词都显示过后不再显示它们。在更改单词列表配置后，记录将被重置。</span></span></li></ul><h3 id="https://www.notion.so/62c115198cf04ea6a3ddc04122917425" class="ColorfulBlock ColorfulBlock--ColorDefault Heading Heading--3"><a class="Anchor" href="#https://www.notion.so/62c115198cf04ea6a3ddc04122917425"><svg width="16" height="16" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><span class="SemanticStringArray"><span class="SemanticString">原型</span></span></h3><div id="https://www.notion.so/a09c69683d0346ad882acc597b6c7fa9" class="Image Image--Normal"><figure><a href="https://www.notion.so/signed/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F9f126260-6e58-41ba-94d7-dc7378348f0f%2FUntitled.png?width=511&amp;table=block&amp;id=a09c6968-3d03-46ad-882a-cc597b6c7fa9"><img src="https://www.notion.so/signed/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F9f126260-6e58-41ba-94d7-dc7378348f0f%2FUntitled.png?width=511&amp;table=block&amp;id=a09c6968-3d03-46ad-882a-cc597b6c7fa9" style="width:511px"/></a><figcaption><span class="SemanticStringArray"></span></figcaption></figure></div><h3 id="https://www.notion.so/ee2e1ae22f1a4b8794330b930db7b0d1" class="ColorfulBlock ColorfulBlock--ColorDefault Heading Heading--3"><a class="Anchor" href="#https://www.notion.so/ee2e1ae22f1a4b8794330b930db7b0d1"><svg width="16" height="16" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><span class="SemanticStringArray"><span class="SemanticString">运行</span></span></h3><ul class="BulletedListWrapper"><li id="https://www.notion.so/776e073153a54d0fafe672517c3e7ece" class="BulletedList"><span class="SemanticStringArray"><span class="SemanticString">在assets文件夹中解压</span><span class="SemanticString"><code class="SemanticString__Fragment SemanticString__Fragment--Code">dict.sqlite.zip</code></span><span class="SemanticString">文件为</span><span class="SemanticString"><code class="SemanticString__Fragment SemanticString__Fragment--Code">dict.sqlite</code></span><span class="SemanticString">。（原始文件太大无法上传到github，而且我不想使用git lfs。）</span></span></li><li id="https://www.notion.so/93da673fb8ca4d26b4c9c30156519eef" class="BulletedList"><span class="SemanticStringArray"><span class="SemanticString">然后就可以build啦。</span></span></li></ul><h3 id="https://www.notion.so/b585a54034234638a998a2886ff891e0" class="ColorfulBlock ColorfulBlock--ColorDefault Heading Heading--3"><a class="Anchor" href="#https://www.notion.so/b585a54034234638a998a2886ff891e0"><svg width="16" height="16" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><span class="SemanticStringArray"><span class="SemanticString">How to use it</span></span></h3><ul class="BulletedListWrapper"><li id="https://www.notion.so/a7659bdf22884c49b1f34f3830d21968" class="BulletedList"><span class="SemanticStringArray"><span class="SemanticString">当您第一次安装时，基本上只有设置页面。您需要点击“授予浮动权限”进入设置页面以授予悬浮窗口权限。</span></span><div id="https://www.notion.so/cb127f6e593e4fd19c1e937f6722fa4d" class="Image Image--Normal"><figure><a href="https://www.notion.so/signed/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F89d2fdee-eadc-4a64-8ed5-e284fb8d6017%2FUntitled.png?width=384&amp;table=block&amp;id=cb127f6e-593e-4fd1-9c1e-937f6722fa4d"><img src="https://www.notion.so/signed/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F89d2fdee-eadc-4a64-8ed5-e284fb8d6017%2FUntitled.png?width=384&amp;table=block&amp;id=cb127f6e-593e-4fd1-9c1e-937f6722fa4d" style="width:384px"/></a><figcaption><span class="SemanticStringArray"></span></figcaption></figure></div></li><li id="https://www.notion.so/9e83f7f9a2ba4512ad05fad8d48b6848" class="BulletedList"><span class="SemanticStringArray"><span class="SemanticString">打开权限开关。</span></span><div id="https://www.notion.so/7cdfa6c8d0d54beeb09d2f708fef3cae" class="Image Image--Normal"><figure><a href="https://www.notion.so/signed/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F81be0d8c-2125-4c0e-b679-4263891091f2%2FUntitled.png?width=384&amp;table=block&amp;id=7cdfa6c8-d0d5-4bee-b09d-2f708fef3cae"><img src="https://www.notion.so/signed/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F81be0d8c-2125-4c0e-b679-4263891091f2%2FUntitled.png?width=384&amp;table=block&amp;id=7cdfa6c8-d0d5-4bee-b09d-2f708fef3cae" style="width:384px"/></a><figcaption><span class="SemanticStringArray"></span></figcaption></figure></div></li><li id="https://www.notion.so/983632fbb6584cbca0f776c065058215" class="BulletedList"><span class="SemanticStringArray"><span class="SemanticString">现在权限已经被授予。</span></span><div id="https://www.notion.so/d5e7a753404d42128cf1089f0e9d4a56" class="Image Image--Normal"><figure><a href="https://www.notion.so/signed/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fd2e05516-6f4c-4be9-a40a-730cfa33a8fd%2FUntitled.png?width=384&amp;table=block&amp;id=d5e7a753-404d-4212-8cf1-089f0e9d4a56"><img src="https://www.notion.so/signed/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fd2e05516-6f4c-4be9-a40a-730cfa33a8fd%2FUntitled.png?width=384&amp;table=block&amp;id=d5e7a753-404d-4212-8cf1-089f0e9d4a56" style="width:384px"/></a><figcaption><span class="SemanticStringArray"></span></figcaption></figure></div></li><li id="https://www.notion.so/eeeb671aada444b795a4db4673ebfe0c" class="BulletedList"><span class="SemanticStringArray"><span class="SemanticString">您可以更改浮动视图的主题。</span></span></li></ul><div id="https://www.notion.so/c0ec8460585d46129cbfc26dcfa9dd97" class="ColumnList"><div id="https://www.notion.so/ae0c6389c88e4d208d1b4e15830e3501" class="Column" style="width:calc((100% - var(--column-spacing) * 1) * 0.5)"><div id="https://www.notion.so/71c2c1b94547426dbc4cc21ba7154375" class="Image Image--Normal"><figure><a href="https://www.notion.so/signed/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F07f4865a-b235-47ad-8d2b-c9d2d8b9e150%2FUntitled.png?width=384&amp;table=block&amp;id=71c2c1b9-4547-426d-bc4c-c21ba7154375"><img src="https://www.notion.so/signed/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F07f4865a-b235-47ad-8d2b-c9d2d8b9e150%2FUntitled.png?width=384&amp;table=block&amp;id=71c2c1b9-4547-426d-bc4c-c21ba7154375" style="width:384px"/></a><figcaption><span class="SemanticStringArray"></span></figcaption></figure></div></div><div id="https://www.notion.so/54490d1d5e194599926a52aa514f7cf2" class="Column" style="width:calc((100% - var(--column-spacing) * 1) * 0.5)"><div id="https://www.notion.so/4b7aa1f729fe494c90e11883128f3022" class="Image Image--Normal"><figure><a href="https://www.notion.so/signed/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Ffb40d904-8f65-447b-9440-d442e4c75e32%2FUntitled.png?width=384&amp;table=block&amp;id=4b7aa1f7-29fe-494c-90e1-1883128f3022"><img src="https://www.notion.so/signed/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Ffb40d904-8f65-447b-9440-d442e4c75e32%2FUntitled.png?width=384&amp;table=block&amp;id=4b7aa1f7-29fe-494c-90e1-1883128f3022" style="width:384px"/></a><figcaption><span class="SemanticStringArray"></span></figcaption></figure></div></div></div><ul class="BulletedListWrapper"><li id="https://www.notion.so/897121f0f8784f99b5c6414447d9315c" class="BulletedList"><span class="SemanticStringArray"><span class="SemanticString">如果不设置索引。它将从第一个单词开始(按频率排序)。因此建议设置起始索引和结束索引。</span></span><div id="https://www.notion.so/c20744e0aff14fb7bf5ee9319b9f3bda" class="Image Image--Normal"><figure><a href="https://www.notion.so/signed/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0db80f8f-8998-48d7-9212-49a2cabc69fe%2FUntitled.png?width=336&amp;table=block&amp;id=c20744e0-aff1-4fb7-bf5e-e9319b9f3bda"><img src="https://www.notion.so/signed/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0db80f8f-8998-48d7-9212-49a2cabc69fe%2FUntitled.png?width=336&amp;table=block&amp;id=c20744e0-aff1-4fb7-bf5e-e9319b9f3bda" style="width:336px"/></a><figcaption><span class="SemanticStringArray"></span></figcaption></figure></div></li><li id="https://www.notion.so/b08b834a547c4182b37402194ce8c2bb" class="BulletedList"><span class="SemanticStringArray"><span class="SemanticString">现在你可以随时背诵单词，比如边刷抖音边背。</span></span><div id="https://www.notion.so/00e2574a649943278a9f8ccccc6ca0f8" class="Image Image--Normal"><figure><a href="https://www.notion.so/signed/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fd56cd618-a4e4-4729-bdb2-e3b7868355b8%2FUntitled.png?width=336&amp;table=block&amp;id=00e2574a-6499-4327-8a9f-8ccccc6ca0f8"><img src="https://www.notion.so/signed/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fd56cd618-a4e4-4729-bdb2-e3b7868355b8%2FUntitled.png?width=336&amp;table=block&amp;id=00e2574a-6499-4327-8a9f-8ccccc6ca0f8" style="width:336px"/></a><figcaption><span class="SemanticStringArray"></span></figcaption></figure></div></li></ul><div id="https://www.notion.so/934723b00ce2420ca64f625a7d174bea" class="ColorfulBlock ColorfulBlock--ColorDefault Text"><p class="Text__Content"><span class="SemanticStringArray"></span></p></div><div id="https://www.notion.so/a8a5f225fbe546cb8dbffdca07580088" class="ColorfulBlock ColorfulBlock--ColorDefault Text"><p class="Text__Content"><span class="SemanticStringArray"></span></p></div></article>
+  <footer class="Footer">
+  <div>&copy; Zheng Chen`s Blog  2022</div>
+  <div>&centerdot;</div>
+  <div>Powered by <a href="https://github.com/dragonman225/notablog" target="_blank"
+      rel="noopener noreferrer">Notablog</a>.
+  </div>
+</footer>
+</body>
+
+</html>
