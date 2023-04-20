@@ -20,6 +20,7 @@
 - `npx create-react-app zheng_blog --template typescript` to create the react project.
 - `npm install gh-pages --save-dev` in the project folder.
 - `npm start` to run it locally in `http://localhost:3000`
+- `npm run deploy` to deploy to Github Pages.
 
 # 参考
 - https://docs.github.com/zh/pages
