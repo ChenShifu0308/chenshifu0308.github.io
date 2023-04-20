@@ -14,6 +14,13 @@
 - 运行 `notablog generate .` 生成静态页面，当页面内容有更新时，该指令可以重复执行。
 - 因为生成页面只作为网页的一部分，暂时先用iframe嵌套一下，或者修改notablog源码
 
+# 首页
+手写静态页面太繁琐了，利用React来写更快速一些，使用[create-react-app](https://create-react-app.dev/)来创建react app，参考[react-gh-pages](https://github.com/gitname/react-gh-pages)流程来部署.
+
+
 # 参考
 - https://docs.github.com/zh/pages
 - https://aptrinh.js.org/notion-blogging.html
+- https://react.dev/
+- https://create-react-app.dev/docs/deployment#github-pages
+- https://github.com/gitname/react-gh-pages
