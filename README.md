@@ -11,7 +11,7 @@
 因为这里部署的是简单的静态网页，博文选择使用Markdown是个好主意，但是编辑内容我个人喜欢使用Notion，所以还是想要找个工具来将Notion的内容转为静态网页，然后更新到这里。
 - Notion转静态页面我准备使用 [Notablog](https://github.com/dragonman225/notablog)
 - 运行 `npm i -g notablog` 全局安装`notablog`
-- 运行 `notablog generate ./blog` 生成静态页面，当页面内容有更新时，该指令可以重复执行。
+- 运行 `notablog generate ./public/blog` 生成静态页面，当页面内容有更新时，该指令可以重复执行。
 - 因为生成页面只作为网页的一部分，暂时先用iframe嵌套一下，或者修改notablog源码
 
 # 首页
