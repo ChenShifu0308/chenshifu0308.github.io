@@ -4,7 +4,7 @@ export default function Mobile() {
     return (
         <div>
             {/* SmartNews */}
-            <div className='flex justify-between w-full h-[700px] bg-yellow-600'>
+            <div className='flex justify-between w-full h-[700px] bg-amber-500'>
                 <div className='left w-1/2'>
 
                     <div className='font-mono text-5xl text-blue-100 ml-20 pt-5'>SmartNews</div>
@@ -27,13 +27,14 @@ export default function Mobile() {
             </div>
             {/* Weibo */}
             <div className='flex justify-between w-full h-[700px] bg-indigo-300'>
-                <div className='left mx-4 w-auto my-auto'>
-                    <img className='h-[550px] ' src="images/smartnews.png" alt="" />
+                <div className='left mx-4 w-auto my-auto flex sp'>
+                    <img className='h-[550px] -rotate-3' src="images/weibo_1.png" alt="" />
+                    <img className='h-[550px] z-1 absolute ml-24 rotate-3' src="images/weibo_2.png" alt="" />
                 </div>
                 <div className='right  w-3/5'>
                     <div className='font-mono text-5xl text-blue-100 ml-20 pt-5'>Weibo Live</div>
                     <div className=' text-slate-100 text-xl mt-3 w-4/5 mx-auto'>
-                        Someting about Weibo Live
+                        Weibo live is the platform where hundreds of millions of people interact.
                     </div>
 
                     <div className='font-bold ml-8 text-slate-200 text-xl mt-4  mx-auto'>
