@@ -11,9 +11,9 @@ export default function Navbar() {
                 <div className='bg-slate-800  active:bg-gray-400 hover:bg-slate-500'>
                     <Link to="/blog">Blog</Link>
                 </div>
-                <div className='bg-slate-800  active:bg-gray-400 hover:bg-slate-500'>
+                {/* <div className='bg-slate-800  active:bg-gray-400 hover:bg-slate-500'>
                     <Link to="/web">Web</Link>
-                </div>
+                </div> */}
                 <div className='bg-slate-800  active:bg-gray-400 hover:bg-slate-500'>
                     <Link to="/mobile">Mobile Apps</Link>
                 </div>
